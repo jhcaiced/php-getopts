@@ -187,7 +187,7 @@ class Handler {
 
     /**
      * @param string $name
-     * @return array
+     * @return mixed
      */
     public function get($name = '') {
         if (is_null($this->result)) {
